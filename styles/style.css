@@ -1,11 +1,36 @@
-*,
+/* *,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 body {
-    background-color: #000;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* ensure the body takes up the 100% of the viewpoint height */
+    height: 100vh;
+}
+
+.watch{
+    border: 1px green solid;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: column;
+    width:600px;
+    
+}
+
+.time{
+    display:flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 10px;
 }

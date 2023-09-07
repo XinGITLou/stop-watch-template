@@ -4,9 +4,21 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./styles/style.css" />
+        
         <title>Stop watch</title>
     </head>
     <body>
-        <script type="module" src="./src/init.js"></script>
+        
+       <div class="watch"> 
+        <div class="time">
+        <h1><span id="minutes">00</span>.<span id="seconds">00</span>.<span id="milliseconds">00</span></h1>
+        </div>
+        <div class="buttons">
+        <button id="B1">Start</button>
+        <button id="B2">Stop</button>
+        <button id="B3">Reset</button>
+        </div>
+       </div>
+       <script src="./src/init.js"></script>
     </body>
 </html>
